@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+//const dotenv = require('dotenv')
 const url = 'mongodb://localhost:27017/nodejs-mongodb-express'
 
 mongoose.connect(url, {
